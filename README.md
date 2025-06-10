@@ -1,4 +1,4 @@
-# Twilio Conversation Relay Template
+# Integrated custom Voice agent using Twilio's Conversationrelay
 
 This project provides a simple working example of an LLM powered voice bot using Twilio Conversation Relay.
 
@@ -13,7 +13,7 @@ This project provides a simple working example of an LLM powered voice bot using
 ### 1. Clone Repo
 
 ```bash
-git clone https://github.com/pBread/twilio-conversation-relay-beta.git
+git clone https://github.com/Daxrajsinh-holboxai/Voice-AIagent-with-twilio
 cd twilio-conversation-relay-beta
 ```
 
@@ -32,10 +32,6 @@ Start ngrok by running this command.
 ```bash
 ngrok http 3000
 ```
-
-Then copy the domain
-
-<img src="./scripts/grok.png"/>
 
 _Note: ngrok provides [static domains for all ngrok users](https://ngrok.com/blog-post/free-static-domains-ngrok-users). You can avoid updating the `HOSTNAME` every time by provisioning your own static domain._
 
