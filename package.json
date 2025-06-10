@@ -1,0 +1,30 @@
+{
+  "author": "https://github.com/pBread",
+  "name": "twilio-conversation-relay-beta",
+  "scripts": {
+    "dev": "nodemon --exec 'ts-node src/app.ts' --ext 'ts,js,json' --watch 'demo' --watch 'src' ",
+    "grok": "node scripts/ngrok.js",
+    "start": "ts-node src/app.ts"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/twilio": "^3.19.3",
+    "dotenv": "^16.5.0",
+    "dotenv-flow": "^4.1.0",
+    "express": "^4.21.0",
+    "express-ws": "^5.0.2",
+    "node-color-log": "^12.0.1",
+    "openai": "^4.68.4",
+    "twilio": "^5.3.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-ws": "^3.0.5",
+    "@types/node": "^22.7.4",
+    "@types/ws": "^8.5.12",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
